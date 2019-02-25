@@ -4,7 +4,8 @@ let footer = document.getElementsByTagName("footer")[0];
 
 let x = 1;
 let foot = function(){
-  this.textContent = "clique numéro " + x++;
+  console.log("clique");
+  console.log("clique numéro " + x++);
 }
 
 footer.addEventListener("click", foot);
